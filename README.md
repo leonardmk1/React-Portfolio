@@ -1,22 +1,18 @@
-# React Bootstrap with Material Design
-MDBootstrap for React
+# React Protfolio
 
-## Getting Started
-To test, contribute or just see what we did follow few easy steps:
-- clone the repository
-- cd to the directory with the repository
-- run `yarn install` (or `npm install` if you don't use yarn)
-- run the app using `yarn start` (or `npm start`)
-- to build project use `yarn run build` (od `npm run build`)
-- `yarn run remove-demo` (or `npm run remove-demo`) removes demo app pages
-- enjoy!
+This portfolio is the last month of bootcamp's projects and homeworks.  I used MDBReact for the styling and layout of this project. 
 
-## Bugs
-If you want to report a bug or submit your idea feel fre to open an issue
+### Requirements
 
-Before you report a bug, please take your time to find if an issue hasn't been reported yet
+Updated portfolio featuring 6 total projects
+Use React
+A Header component that appears on multiple pages
+A single Project component that will be used multiple times on a single page
+Navigation with React Router, dynamic rendering, or another third part router
+A Footer component that appears on multiple pages
+Update GitHub profile with pinned repositories featuring those same projects
 
-We're also open to pull requests
+### Links
 
-## Something Missing?
-If you still have some questions do not hesitate to ask us. Open an issue or [visit our Slack](https://mdbbetatest.slack.com)
+https://github.com/leonardmk1/React-Portfolio
+ https://leonardmk1.github.io/React-Portfolio/
