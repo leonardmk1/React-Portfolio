@@ -7,7 +7,7 @@ const Carousel= () => {
     <MDBContainer>
       <MDBCarousel
         activeItem={1}
-        length={3}
+        length={5}
         showControls={true}
         showIndicators={true}
         className="z-depth-1"
@@ -17,7 +17,7 @@ const Carousel= () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                src="src/imgs/React Employee Directory.png"
                 alt="First slide"
               />
             </MDBView>
@@ -37,6 +37,24 @@ const Carousel= () => {
                 className="d-block w-100"
                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
                 alt="Third slide"
+              />
+            </MDBView>
+          </MDBCarouselItem>
+          <MDBCarouselItem itemId="4">
+            <MDBView>
+              <img
+                className="d-block w-100"
+                src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                alt="Fourth slide"
+              />
+            </MDBView>
+          </MDBCarouselItem>
+          <MDBCarouselItem itemId="5">
+            <MDBView>
+              <img
+                className="d-block w-100"
+                src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                alt="Fifth slide"
               />
             </MDBView>
           </MDBCarouselItem>

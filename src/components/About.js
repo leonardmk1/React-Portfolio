@@ -9,9 +9,7 @@ import {
   MDBCardImage,
   MDBCardBody,
   MDBCardText,
-  MDBNavLink
 } from "mdbreact";
-
 
 const AboutPage = () => {
   return (
@@ -19,56 +17,40 @@ const AboutPage = () => {
       <MDBContainer className="mt-5 text-center">
         <MDBRow>
           <MDBCol>
-            <MDBJumbotron className="text-center">
+            <MDBJumbotron className="text-center shadow-lg">
               <MDBCardTitle className="card-title h4 pb-2">
                 <h1
                   style={{ fontFamily: "League Spartan", fontWeight: "bolder" }}
                 >
                   About Me
                 </h1>
+                <hr></hr>
               </MDBCardTitle>
-
-              <MDBCardImage
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
-                className="img-fluid"
-              />
+              <MDBCardImage src="./Matt.jpg" className="img-fluid" />
               <MDBCardBody>
-                <MDBCardTitle className="indigo-text h5 m-4">
-                  Photography
-                </MDBCardTitle>
                 <MDBCardText>
-                  Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam.
+                  <p className=" h5 display-5">
+                    I am an aspiring full-stack web developer, and a front end
+                    enthusiast! I have experience in HTML, CSS, JavaScript,
+                    Node.js, MySQL, Sequelize, Mongo, and now Mongoose Mongo DB.
+                    I am currently working on improving my Javascript skills
+                    with the hope that if I leavern Javascipt proficently,
+                    another language will come more easily. This entire website
+                    is built with MDBReact.
+                  </p>
+                  <p className=" h5 display-5">
+                    I have been searching for the career that can withstand my
+                    constant need for mental stimulation and I believe that I
+                    have found a field that will always challenge me and fulfill
+                    that side me. I am constainly curious and am also looking to
+                    larn and improve my understanding no matter the topic.
+                  </p>
+                  <p className=" h5 display-5">
+                    I am married with two dogs and I live in Richmond, VA. I
+                    love hiking and long walks around the neighborhood. I am a
+                    passionate outdoorsman and foodie.
+                  </p>
                 </MDBCardText>
-
-                <MDBCol className="d-flex justify-content-center mt-4" md="12">
-                  <MDBCol md="3" className="d-flex justify-content-around">
-                    <a href="#">
-                      <MDBIcon
-                        fab
-                        icon="linkedin-in"
-                        className="grey-text"
-                        size="lg"
-                      />
-                    </a>
-                    <a href="#">
-                      <MDBIcon
-                        fab
-                        icon="twitter"
-                        className="grey-text"
-                        size="lg"
-                      />
-                    </a>
-                    <a href="#">
-                      <MDBIcon
-                        fab
-                        icon="facebook-f"
-                        className="grey-text"
-                        size="lg"
-                      />
-                    </a>
-                  </MDBCol>
-                </MDBCol>
               </MDBCardBody>
             </MDBJumbotron>
           </MDBCol>
@@ -79,47 +61,3 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
-
-// <MDBView src="https://mdbootstrap.com/img/Photos/Others/img%20(40).jpg">
-//             <MDBMask
-//               overlay="purple-light"
-//               className="flex-center flex-column text-white text-center"
-//             >
-//               <h2>This Navbar is fixed</h2>
-//               <h5>
-//                 It will always stay visible on the top, even when you scroll
-//                 down
-//               </h5>
-//               <p>
-//                 Navbar's background will switch from transparent to solid color
-//                 while scrolling down
-//               </p>
-//               <br />
-//               <p>
-//                 Full page intro with background image will be always displayed
-//                 in full screen mode, regardless of device{" "}
-//               </p>
-//             </MDBMask>
-//           </MDBView>
-
-//         <main>
-//           <MDBContainer className="text-center my-5">
-//             <p align="justify">
-//               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-//               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-//               enim ad minim veniam, quis nostrud exercitation ullamco laboris
-//               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-//               reprehenderit in voluptate velit esse cillum dolore eu fugiat
-//               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-//               sunt in culpa qui officia deserunt mollit anim id est laborum.
-//               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-//               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-//               enim ad minim veniam, quis nostrud exercitation ullamco laboris
-//               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-//               reprehenderit in voluptate velit esse cillum dolore eu fugiat
-//               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-//               sunt in culpa qui officia deserunt mollit anim id est laborum.
-//             </p>
-//           </MDBContainer>
-//         </main>
-//       </div>
