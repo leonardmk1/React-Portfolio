@@ -23,7 +23,7 @@ class FormsPage extends React.Component {
   render() {
     return (
       <div>
-        <MDBContainer>
+        <MDBContainer className="appContainer">
         <MDBJumbotron className="mt-5 shadow-lg">
         <form
           className="needs-validation"

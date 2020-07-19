@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
 import Navbar from "./components/Navbar.js";
-import Search from "./components/Search.js";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact.js";

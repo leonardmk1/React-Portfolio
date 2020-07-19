@@ -4,7 +4,6 @@ import {
   MDBContainer,
   MDBRow,
   MDBCol,
-  MDBIcon,
   MDBCardTitle,
   MDBCardImage,
   MDBCardBody,
@@ -14,7 +13,7 @@ import {
 const AboutPage = () => {
   return (
     <>
-      <MDBContainer className="mt-5 text-center">
+      <MDBContainer className="mt-5 text-center appContainer">
         <MDBRow>
           <MDBCol>
             <MDBJumbotron className="text-center shadow-lg">
@@ -26,7 +25,7 @@ const AboutPage = () => {
                 </h1>
                 <hr></hr>
               </MDBCardTitle>
-              <MDBCardImage src="./Matt.jpg" className="img-fluid" />
+              <MDBCardImage src={require("../imgs/Matt.jpg")} style={{width: "300px", borderRadius:"100%", marginLeft:"auto", marginRight:"auto"}} alt="me" className="img-fluid" />
               <MDBCardBody>
                 <MDBCardText>
                   <p className=" h5 display-5">
