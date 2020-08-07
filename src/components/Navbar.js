@@ -18,7 +18,6 @@ class Navbar extends React.Component {
   }
 
   render() {
-    const container = { height: 1300 }
     return (
       <div>
           <header>
