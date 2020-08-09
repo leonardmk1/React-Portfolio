@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.7646091a.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.68815bfd.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.68815bfd.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.8d6e031a.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.3372cf4d.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.3372cf4d.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.77cb5b78.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.77cb5b78.js.map",
     "static/css/2.28d75d17.chunk.css": "/React-Portfolio/static/css/2.28d75d17.chunk.css",
-    "static/js/2.41a15bfa.chunk.js": "/React-Portfolio/static/js/2.41a15bfa.chunk.js",
-    "static/js/2.41a15bfa.chunk.js.map": "/React-Portfolio/static/js/2.41a15bfa.chunk.js.map",
+    "static/js/2.75c0be12.chunk.js": "/React-Portfolio/static/js/2.75c0be12.chunk.js",
+    "static/js/2.75c0be12.chunk.js.map": "/React-Portfolio/static/js/2.75c0be12.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.d1eae2512b6fbbd468242cd6f03e3eb8.js": "/React-Portfolio/precache-manifest.d1eae2512b6fbbd468242cd6f03e3eb8.js",
+    "precache-manifest.8060d5fc52820a7a68766de191ddf2e2.js": "/React-Portfolio/precache-manifest.8060d5fc52820a7a68766de191ddf2e2.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/css/2.28d75d17.chunk.css.map": "/React-Portfolio/static/css/2.28d75d17.chunk.css.map",
-    "static/css/main.7646091a.chunk.css.map": "/React-Portfolio/static/css/main.7646091a.chunk.css.map",
-    "static/js/2.41a15bfa.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.41a15bfa.chunk.js.LICENSE.txt",
+    "static/css/main.8d6e031a.chunk.css.map": "/React-Portfolio/static/css/main.8d6e031a.chunk.css.map",
+    "static/js/2.75c0be12.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.75c0be12.chunk.js.LICENSE.txt",
     "static/media/Matt.jpg": "/React-Portfolio/static/media/Matt.b65b7705.jpg",
     "static/media/Node-Express-Handlebars.png": "/React-Portfolio/static/media/Node-Express-Handlebars.6db83403.png",
     "static/media/Nosql-Workout-Tracker.png": "/React-Portfolio/static/media/Nosql-Workout-Tracker.df3bfa05.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.77cb5b78.js",
     "static/css/2.28d75d17.chunk.css",
-    "static/js/2.41a15bfa.chunk.js",
-    "static/css/main.7646091a.chunk.css",
-    "static/js/main.68815bfd.chunk.js"
+    "static/js/2.75c0be12.chunk.js",
+    "static/css/main.8d6e031a.chunk.css",
+    "static/js/main.3372cf4d.chunk.js"
   ]
 }
