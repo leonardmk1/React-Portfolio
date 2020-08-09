@@ -25,17 +25,26 @@ const AboutPage = () => {
                 </h1>
                 <hr></hr>
               </MDBCardTitle>
-              <MDBCardImage src={require("../imgs/Matt.jpg")} style={{width: "300px", borderRadius:"80%", marginLeft:"auto", marginRight:"auto"}} alt="me" className="img-fluid" />
+              <MDBCardImage
+                src={require("../imgs/Matt.jpg")}
+                style={{
+                  width: "300px",
+                  borderRadius: "80%",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+                alt="me"
+                className="img-Matt"
+              />
               <MDBCardBody>
                 <MDBCardText>
                   <p className=" h5 display-5">
-                    I am an aspiring full-stack web developer, and a front end
-                    enthusiast! I have experience in HTML, CSS, JavaScript,
-                    Node.js, MySQL, Sequelize, Mongo, and now Mongoose Mongo DB.
-                    I am currently working on improving my Javascript skills
-                    with the hope that if I leavern Javascipt proficently,
-                    another language will come more easily. This entire website
-                    is built with MDBReact.
+                    I am a full-stack web developer, and a front end enthusiast!
+                    I have experience in HTML, CSS, JavaScript, Node.js, MySQL,
+                    Sequelize, Mongoose, Mongo DB, and React. I am currently
+                    working on improving my Javascript skills with the hope that
+                    if I learn Javascipt proficently, another language will come
+                    more easily. This entire website is built with MDBReact.
                   </p>
                   <p className=" h5 display-5">
                     I have been searching for the career that can withstand my
